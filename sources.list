@@ -1,14 +1,17 @@
+
+## Official
 # deb http://ftp.jp.debian.org/debian/ buster main contrib non-free
 # deb-src http://ftp.jp.debian.org/debian/ buster main contrib non-free
-# buster-updates, previously known as 'volatile'
 # deb http://ftp.jp.debian.org/debian/ buster-updates main contrib non-free
 # deb-src http://ftp.jp.debian.org/debian/ buster-updates main contrib non-free
 
-deb http://omiya.pw2.org/debian/ buster main contrib non-free
-deb-src http://omiya.pw2.org/debian/ buster main contrib non-free
-deb http://omiya.pw2.org/debian/ buster-updates main contrib non-free
-deb-src http://omiya.pw2.org/debian/ buster-updates main contrib non-free
+# my public debian archive mirror daily update
+deb http://ftp.pw2.org/debian/ buster main contrib non-free
+deb-src http://ftp.pw2.org/debian/ buster main contrib non-free
+deb http://ftp.pw2.org/debian/ buster-updates main contrib non-free
+deb-src http://ftp.pw2.org/debian/ buster-updates main contrib non-free
 
+## Official security update
 #deb http://security.debian.org/debian-security buster/updates main contrib non-free
 #deb-src http://security.debian.org/debian-security buster/updates main contrib non-free
 

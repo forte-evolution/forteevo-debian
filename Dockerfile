@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:stretch-slim
 
 LABEL maintainer "forte <forte.evolution@gmail.com>"
 
